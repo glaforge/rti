@@ -1,0 +1,4 @@
+moduleName=time-duration
+moduleVersion=1.0
+extensionClasses=rti.dsl.TimeUnitExtensionMethods
+staticExtensionClasses=
