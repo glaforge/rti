@@ -78,7 +78,7 @@ class BuilderSpec extends Specification {
                                 (device.manufacturer == 'Samsung' && device.model ==~ 'Galaxy.*')
                     }
                     window {
-                        name 'deviceBySecondWindow\'
+                        name 'deviceBySecondWindow'
                         type tumbling
                         interval 1.sec
                         laggingInterval 10.sec
@@ -91,7 +91,7 @@ class BuilderSpec extends Specification {
                     alert {
                         criteria { 'alert0' }
                     }
-                }
+                }t
             }
         ''')
 
