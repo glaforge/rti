@@ -86,7 +86,7 @@ class BuilderSpec extends Specification {
                     }
                     functions { 'f2' }
                     export {
-                        format 'field1', 'field2\'
+                        format 'field1', 'field2'
                     }
                     alert {
                         criteria { 'alert0' }
