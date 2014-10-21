@@ -91,7 +91,7 @@ class BuilderSpec extends Specification {
                     alert {
                         criteria { 'alert0' }
                     }
-                }t
+                }
             }
         ''')
 
