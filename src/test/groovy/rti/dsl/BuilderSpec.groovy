@@ -69,8 +69,8 @@ class BuilderSpec extends Specification {
 
         def s = (StreamBuilder) sh.evaluate('''
             create stream, "stream name", {
-                include 'sms.mo.2g.*', 'sms.mo.3g.*\'
-                exclude 'sms.mo.2g.fail.user', 'sms.mo.3g.fail.user\'
+                include 'sms.mo.2g.*', 'sms.mo.3g.*'
+                exclude 'sms.mo.2g.fail.user', 'sms.mo.3g.fail.user'
                 groupBy {
                     expression { device.manufacturer && device.model }
                     having {
